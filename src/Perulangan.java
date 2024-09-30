@@ -19,5 +19,15 @@ public class Perulangan {
             k++;
         } while (k <= 10);
 
+        // FOREACH LOOP
+        String[] nameArray = {
+            "Muhamad", "Zainul", "Kamal",
+            "Syarifah", "Amanda", "Natasya"
+        };
+
+        for (String name : nameArray) {
+            System.out.println(name);
+        }
+
     }
 }
